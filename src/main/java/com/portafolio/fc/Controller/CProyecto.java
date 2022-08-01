@@ -24,8 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Fran
  */
 @RestController
-@RequestMapping("/proyecto")
 @CrossOrigin(origins = "https://castellanoap.herokuapp.com")
+@RequestMapping("/proyecto")
 
 public class CProyecto {
     
