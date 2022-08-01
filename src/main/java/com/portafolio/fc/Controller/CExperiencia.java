@@ -24,7 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Fran
  */
 @RestController
-@RequestMapping("explab")
+@RequestMapping("/explab")
+@CrossOrigin(origins = "https://castellanoap.herokuapp.com")
 
 public class CExperiencia {
 
